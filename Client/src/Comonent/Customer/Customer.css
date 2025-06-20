@@ -1,0 +1,47 @@
+/* .customer-main {
+    display: block;
+}
+
+.customer-item .top {
+    margin-bottom: 40px;
+}
+
+.customer-item .top h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.customer-item .bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inner-cus {
+    width: 400px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.cus h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cus p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .inner-cus {
+        flex: 1 1 100%;
+    }
+}
+ */

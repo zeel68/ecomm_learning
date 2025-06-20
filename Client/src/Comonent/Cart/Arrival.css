@@ -1,0 +1,133 @@
+.main-arrival {
+    display: block;
+}
+
+.main-arrival .inner-arrival {
+    display: block;
+}
+
+.main-arrival .inner-arrival .top {
+    margin-top: 72px;
+    margin-bottom: 55px;
+    left: 518px;
+    text-align: center;
+}
+
+/* bottom */
+.main-arrival .inner-arrival .bottom .inner-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.main-arrival .inner-arrival .bottom .inner-bottom .bottom-item .items-a {
+    display: block;
+    padding: 10px;
+
+}
+
+.main-arrival .inner-arrival .bottom .inner-bottom .bottom-item {
+    width: 25%;
+    border-radius: 20px;
+}
+
+.main-arrival .inner-arrival .bottom .inner-bottom .bottom-item p {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.main-arrival .inner-arrival .bottom .inner-bottom .bottom-item span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.old {
+    text-decoration: line-through;
+    color: black;
+    opacity: 40%;
+    margin-left: 10px;
+}
+
+.all {
+    display: block;
+    margin: 50px auto 0;
+    padding: 12px 54px 12px 54px;
+    color: #000000;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-radius: 62px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.start{
+    display: flex;
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item {
+        width: 50%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item .items-a {
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 658px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item {
+        width: 50%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item .items-a {
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item {
+        width: 50%;
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom .bottom-item .items-a {
+        padding: 10px;
+
+    }
+
+    .main-arrival .inner-arrival .bottom .inner-bottom {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .all {
+        width: 80%;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
